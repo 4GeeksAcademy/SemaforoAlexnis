@@ -3,6 +3,18 @@ import { useState } from "react";
 export const Estadodelsemaforo = () => {
     const [cambiarcolor, setcambiarcolor] = useState("");
 
+    const cambio =() => {
+        if (cambiarcolor === ""){
+            setcambiarcolor("verde")
+        }else if (cambiarcolor === "verde"){
+            setcambiarcolor("amarillo")
+        }else if (cambiarcolor === "amarillo"){
+            setcambiarcolor ("rojo")
+        }else{
+            setcambiarcolor("verde")
+        }
+    }
+
     return (
         <>
             <div
@@ -18,6 +30,8 @@ export const Estadodelsemaforo = () => {
                 className={`rojo ${cambiarcolor === "rojo" && "red"}`}
             ></div>
 
+            <button onClick={cambio}
+            className="btn btn-dark">Cambiar</button>
         </>
     )
 }
