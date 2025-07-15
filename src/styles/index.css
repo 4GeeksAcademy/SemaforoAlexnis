@@ -1,25 +1,42 @@
+body {
+    background-color: rgb(34, 28, 28);
+}
+
 .verde {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-color: green;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
+    margin: auto;
+    
+
 }
 
 .amarillo {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-color: yellow;
     border-radius: 50%;
-
+    margin: auto;
 
 }
 
 .rojo {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-color: red;
     border-radius: 50%;
+    margin: auto;
+}
 
+.green {
+    box-shadow: 0 0 40px white;
+}
+
+.yellow {
+    box-shadow: 0 0 40px white;
+}
+
+.red {
+    box-shadow: 0 0 40px white;
 }

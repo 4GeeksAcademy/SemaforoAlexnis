@@ -3,8 +3,8 @@ import { Estadodelsemaforo } from "./Estadodelsemaforo";
 const Home = () => {
 	return (
 		<div className="text-center">
-            <h1>Semaforo</h1>
-		<Semaforo/>
+            <h1 className="text-light">Semaforo</h1>
+		
 		<Estadodelsemaforo/>
 		</div>
 	);
